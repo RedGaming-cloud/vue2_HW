@@ -1,11 +1,17 @@
 <template>
+<div class="">
   <img alt="Vue logo" src="./assets/logo.png">
+  <Calc></Calc>
+  </div>
 </template>
 
 <script>
+import Calc from './components/calcproject.vue';
+
 export default {
   name: 'App',
   components: {
+    Calc,
   },
 };
 </script>
