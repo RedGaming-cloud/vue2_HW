@@ -1,22 +1,23 @@
 <template>
-<div class="">
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Calc></Calc>
-  </div>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">   
+    <Calculator />
+  </div>  
 </template>
 
 <script>
-import Calc from './components/calcproject.vue';
+
+import Calculator from './components/calculator.vue'
 
 export default {
   name: 'App',
   components: {
-    Calc,
-  },
-};
+    Calculator
+  }
+}
 </script>
 
-<style lang="scss">
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
